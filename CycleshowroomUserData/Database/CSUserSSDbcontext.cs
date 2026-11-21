@@ -25,7 +25,7 @@ namespace CycleshowroomUserData.Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-8C9K1E1;Database=Cycleshowroom;Integrated Security=True;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=tcp:labs-ac-db-server.database.windows.net,1433;Initial Catalog=Cycleshowroom;Persist Security Info=False;User ID=labsdbserver;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             base.OnConfiguring(optionsBuilder);
         }
 
