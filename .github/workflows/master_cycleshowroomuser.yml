@@ -52,4 +52,4 @@ jobs:
           app-name: 'CycleshowroomUser'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_205AD5C56B6B4B9CA2DF6616904504B2 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_16BEE6CE654F434196D812390C36F0F6 }}
